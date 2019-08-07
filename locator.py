@@ -9,7 +9,7 @@ import sys, socket, pygeoip, argparse
         try:
             if not self.datfile:
                 # .dat default file path goes here, for me it's
-                self.datfile = 'N:\\Tools\\IP Locator\\GeoLiteCity.dat'
+                self.datfile = '' #db file goes here
             if not not self.url:
                 print('[*] Translating %s' % (self.url))
                 try:
